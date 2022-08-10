@@ -53,3 +53,91 @@ export const MainButton = styled.button`
     } */
 `
 
+<<<<<<< Updated upstream
+=======
+// 상단바
+export const Header = styled.div`
+    margin-top: 20px!important;
+    width: 100%;
+    height: auto !important;
+`
+
+export const HeaderTop = styled.div`
+    display: flex;
+    position: relative;
+    
+    .headerlog {
+        max-width: 100%;
+        width:13%;
+        height: auto;
+        margin: 0 auto;
+    }
+`
+
+export const HeaderRightDiv = styled.div`
+    position : absolute;
+    margin-top: 6px;
+    right: 7%;
+    display: flex;
+`
+
+export const HeaderRightIcon = styled.button`
+    border: none;
+    color: #A6A6A6;
+    font-size: 140%;
+    background-color: transparent;
+    margin-left:16px;
+`
+
+export const HeaderTextBox = styled.ul`
+    display:flex;
+    justify-content: space-between;
+    list-style-type: none;
+    padding: 0 23px 0 23px;
+    margin-top: 20px;
+    color: #868687;
+    font-size: 95%;
+    border-bottom: 1px solid #D0CECE;
+
+    .lifirst {
+        color: black;
+        border-bottom: 3px solid #EE793F;
+        padding-bottom: 9px;
+    }
+`
+
+export const Asd = styled.div`
+    // flex: 1;
+`
+
+
+export const Footer = styled.div`
+    list-style-type: none;
+    height: 61px !important;
+    display : flex;
+    justify-content: space-around;
+    width: 100%;
+    border-top: 1px solid #d0cece;
+
+    button {
+        background-color: transparent;
+        outline: none;
+        border: none;
+    }
+
+    .userimgcover {
+        display: flex;
+        align-items: center;
+        width: fit-content;
+        height: 100%; 
+        overflow: hidden;
+    }
+
+    .userimg {
+        width: inherit;
+        height: 40px;
+        border: 1px solid #d0cece;
+        border-radius: 100px;
+    }
+`
+>>>>>>> Stashed changes
