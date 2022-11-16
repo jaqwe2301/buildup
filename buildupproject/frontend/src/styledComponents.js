@@ -267,9 +267,12 @@ export const MemberBox = styled.button`
     padding: 10px 12px 7px 12px;
     margin: 50px 30px 10px 30px;
     background-color: transparent;
-    &:hover {
-        background-color: #ff9866;
-        border: 2px solid #ff9866;
+    // &:hover {
+    //     background-color: #ff9866;
+    //     border: 2px solid #ff9866;
+    // };
+    .change {
+        background-color: #ff9866 !important;
     };
 `
 
@@ -364,6 +367,12 @@ export const Competitionyear = styled.div`
     display: flex;
     justify-content: space-between;
     width: 90%;
+`
+
+export const MemberGrid = styled.div`
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+
 `
 
 
